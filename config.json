@@ -51,7 +51,7 @@
   "settings": {
     "appearance": {
       "theme": "system",
-      "theme": ["system", "light", "dark", "cursed"],
+      "theme": ["light", "dark", "cursed"],
       "font": ["roboto", "roboto-bold", "roboto-italic"],
       "themes": [
         "light": {
