@@ -30,7 +30,8 @@
     ],
     "background": [
       "/applications/background/updater.py",
-      "/applications/background/time_management.py"
+      "/applications/background/time_management.py",
+      "/applications/background/fonts.py"
     ]
   },
   "system": {
@@ -46,6 +47,21 @@
       "/apps"
     ],
     "lang": "en"
+  },
+  "settings": {
+    "appearance": {
+      "theme": "system",
+      "themes": ["system", "light", "dark", "cursed"],
+      "font": ["roboto", "roboto-bold", "roboto-italic"]
+    },
+    "security": {
+      "permission": 1
+    }
+  },
+  "aesgcm": {
+    "salt": null,
+    "nonce": null,
+    "iterations": 225000
   },
   "metadata": {
     "version": 1,
