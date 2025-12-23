@@ -51,8 +51,31 @@
   "settings": {
     "appearance": {
       "theme": "system",
-      "themes": ["system", "light", "dark", "cursed"],
-      "font": ["roboto", "roboto-bold", "roboto-italic"]
+      "theme": ["system", "light", "dark", "cursed"],
+      "font": ["roboto", "roboto-bold", "roboto-italic"],
+      "themes": [
+        "light": {
+          "background": "#fafafa",
+          "title": "#484b6a",
+          "paragraph": "#9394a5",
+          "card": "#e4e5f1",
+          "card2": "#d2d3db"
+        },
+        "dark": {
+          "background": "#121212",
+          "title": "#FFFFFF",
+          "paragraph": "fafafa",
+          "card": "#292929",
+          "card2": "#121212"
+        },
+        "cursed": {
+          "background": null,
+          "title": null,
+          "paragraph": null,
+          "card": null,
+          "card2": null
+        }
+      ]
     },
     "security": {
       "permission": 1
