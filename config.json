@@ -1,0 +1,54 @@
+{
+  "applications": {
+    "core": [
+      "/core/kernel.py",
+      "/security/aes.py",
+      "/security/lock.py",
+      "/security/permissions.py",
+      "/core/process.py",
+      "/core/logging.py",
+      "/core/network.py"
+    ],
+    "essentials": [
+      "/applications/system/calculator.py",
+      "/applications/system/photos.py",
+      "/applications/system/camera.py",
+      "/applications/system/textpad.py",
+      "/applications/system/bsguard.py",
+      "/applications/system/bsbrowser.py",
+      "/applications/system/bswallet.py",
+      "/applications/system/bsmsg.py",
+      "/applications/system/bsv.py",
+      "/applications/system/recyle.py"
+    ],
+    "secondary": [
+      "/applications/secondary/cards.py",
+      "/applications/secondary/chess.py",
+      "/applications/secondary/cryptocurrency.py",
+      "/applications/secondary/ubg.py",
+      "/applications/secondary/theater.py"
+    ],
+    "background": [
+      "/applications/background/updater.py",
+      "/applications/background/time_management.py"
+    ]
+  },
+  "system": {
+    "disk_size": 549755813888,
+    "disk": "/local",
+    "directories": [
+      "/desktop",
+      "/documents",
+      "/downloads",
+      "/pictures",
+      "/videos",
+      "/music",
+      "/apps"
+    ],
+  },
+  "metadata": {
+    "version": 1,
+    "developer": "ISTEK",
+    "created": 1766535930
+  }
+}
