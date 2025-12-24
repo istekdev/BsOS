@@ -33,6 +33,7 @@
       "/applications/background/updater.py",
       "/applications/background/time_management.py",
       "/applications/background/appearance.py",
+      "/applications/background/window.py"
     ]
   },
   "system": {
