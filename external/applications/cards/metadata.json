@@ -2,5 +2,6 @@
   "name": "Cards - Popular Card Games",
   "version": 1,
   "created": 1766633561,
-  "verifyHash": "e9ed8f0acd46e7b1e2e74f7033f63c2fdaa404fdca26b7cba2277ebe06284dea"
+  "directory": "https://raw.githubusercontent.com/istekdev/BsOS/refs/heads/main/external/applications/cards/metadata.json",
+  "verifyHash": "cd450d5cbc528497cec6f8257ce036d2b31077ad544009fa276378e05b2afdb7"
 }
