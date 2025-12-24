@@ -19,7 +19,8 @@
       "/applications/system/bswallet.py",
       "/applications/system/bsmsg.py",
       "/applications/system/bsv.py",
-      "/applications/system/recyle.py"
+      "/applications/system/recyle.py",
+      "/applications/system/terminal.py"
     ],
     "secondary": [
       "/applications/secondary/cards.py",
