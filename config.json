@@ -52,7 +52,15 @@
       "maximize": "#61c554",
       "minimize": "#f4bf4f"
     },
-    "lang": "en"
+    "lang": "en",
+    "users": [
+      {
+        "username": "root",
+        "password": null,
+        "salt": null,
+        "nonce": null
+      }
+    ]
   },
   "settings": {
     "appearances": {
@@ -88,8 +96,6 @@
     }
   },
   "aesgcm": {
-    "salt": null,
-    "nonce": null,
     "iterations": 225000
   },
   "metadata": {
