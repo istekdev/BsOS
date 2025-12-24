@@ -3,9 +3,10 @@ def close():
 
 def fullscreen(obj):
   original = (obj.winfo_width(), obj.winfo_height(), obj.winfo_x(), obj.winfo_y())
-  if fs == True:
+  if fs == False:
     obj.place(x=0, y=0, relwidth=1, relheight=1)
     obj.configure(corner_radius=0)
+    fs = True
   else:
     w, h, x, y = original
     obj.place(x=x, y=y, width=w, height=h)
