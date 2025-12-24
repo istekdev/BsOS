@@ -7,8 +7,7 @@
       "/security/permissions.py",
       "/core/process.py",
       "/core/logging.py",
-      "/core/network.py",
-      "/core/display.py"
+      "/core/network.py"
     ],
     "essentials": [
       "/applications/system/calculator.py",
