@@ -53,7 +53,7 @@
     "appearance": {
       "theme": "system",
       "theme": ["light", "dark", "cursed"],
-      "font": ["roboto", "roboto-bold", "roboto-italic"],
+      "font": "roboto",
       "themes": [
         "light": {
           "background": "#fafafa",
