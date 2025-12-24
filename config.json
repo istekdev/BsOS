@@ -47,6 +47,11 @@
       "/music",
       "/apps"
     ],
+    "controls": {
+      "exit": "#ec6a5e",
+      "maximize": "#61c554",
+      "minimize": "#f4bf4f"
+    },
     "lang": "en"
   },
   "settings": {
