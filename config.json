@@ -56,11 +56,11 @@
     "lang": "en"
   },
   "settings": {
-    "appearance": {
-      "theme": "system",
-      "theme": ["light", "dark", "cursed"],
+    "appearances": {
+      "theme": "light",
+      "themeOption": ["light", "dark", "cursed"],
       "font": "roboto",
-      "themes": [
+      "themes": {
         "light": {
           "background": "#fafafa",
           "title": "#484b6a",
@@ -82,7 +82,7 @@
           "card": null,
           "card2": null
         }
-      ]
+      }
     },
     "security": {
       "permission": 1
