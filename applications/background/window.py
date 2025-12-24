@@ -11,3 +11,6 @@ def fullscreen(obj):
     obj.place(x=x, y=y, width=w, height=h)
     obj.configure(corner_radius=20)
     fs = False
+
+def minimize():
+    window.iconify()
