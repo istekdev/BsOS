@@ -1,3 +1,12 @@
+"""
+Status: WIP
+
+Needs Finished:
+- Fullscreen Adjustment
+- Exiting Fullscreen
+- Dragging
+"""
+
 from applications.background import appearance
 import customtkinter, json, time
 
