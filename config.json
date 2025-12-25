@@ -61,7 +61,8 @@
       }
     ],
     "loggedIn": "root",
-    "timezone": "EST"
+    "timezone": "EST",
+    "timeFormat": 12
   },
   "settings": {
     "appearances": {
