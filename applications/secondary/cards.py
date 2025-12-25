@@ -9,6 +9,8 @@ def install():
   shutil.copytree(f"/external/applications/cards", f"/local/users/{config["system"]["loggedIn"]}/apps/cards", dirs_exist_ok=True)
 
 def update():
+  shutil.rmtree(f"/local/users/{config["system"]["loggedIn"]}/apps/cards")
+  os.makedirs(f"/local/users/{config["system"]["loggedIn"]}/apps/cards", exist_ok=True)
   shutil.copytree(f"https://github.com/istekdev/BsOS/blob/main/external/applications/cards", f"/local/users/{config["system"]["loggedIn"]}/apps/cards", dirs_exist_ok=True)
 
 def uninstall():
