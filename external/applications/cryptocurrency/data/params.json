@@ -1,0 +1,6 @@
+{
+  "cryptocurrencies": ["bitcoin", "ethereum", "solana", "xrp", "binancecoin", "tether", "usd-coin", "doge", "tron", "cardano"],
+  "delay": 60,
+  "api": "https://api.coingecko.com/api/v3/simple/price?ids=&vs_currencies=",
+  "currency": "usd"
+}
