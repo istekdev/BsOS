@@ -1,0 +1,8 @@
+{
+  "name": "Cryptocurrency - View Crypto Prices Live!",
+  "version": 1,
+  "created": 1766656077,
+  "directory": "https://raw.githubusercontent.com/istekdev/BsOS/refs/heads/main/external/applications/cryptocurrency/metadata.json",
+  "update": "https://github.com/istekdev/BsOS/tree/main/external/applications/cryptocurrency",
+  "verifyHash": "4d39f7d95c0fece9bcce89a80e495ae40064891a81e82d763d456984952e1f69"
+}
