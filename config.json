@@ -60,7 +60,8 @@
         "nonce": null
       }
     ],
-    "loggedIn": "root"
+    "loggedIn": "root",
+    "timezone": "EST"
   },
   "settings": {
     "appearances": {
