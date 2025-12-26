@@ -69,6 +69,11 @@ def open():
     title = customtkinter.CTkLabel(header, text="Calculator", text_color=appearance.cursed(), font=(config["settings"]["appearances"]["font"], 14, "bold"))
     title.pack(side="right", padx=10)
 
+  block = {"application": "Calculator", "directory": "/applications/system/calculator.py", "x": 200, "y": 60}
+  config["system"]["runningApps"].append(block)
+  with open("./config.json", "w") as w:
+    json.dump(config, w, indent=4)
+
   left = customtkinter.CTkFrame(header, fg_color="transparent")
   left.pack(side="left", padx=10)
 
