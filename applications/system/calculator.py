@@ -94,11 +94,11 @@ def open():
   body.pack(fill="both", expand=True, padx=15, pady=15)
   output = customtkinter.StringVar()
   if config["settings"]["appearances"]["theme"] == "light":
-    screen = customtkinter.CTkLabel(body, textvariable=output, width=310, height=50, fg_color=config["settings"]["appearances"]["themes"]["light"]["card"], corner_radius=10, anchor="e", font=("Arial", 20))
+    screen = customtkinter.CTkLabel(body, textvariable=output, width=310, height=50, fg_color=config["settings"]["appearances"]["themes"]["light"]["card"], corner_radius=10, anchor="e", font=(config["settings"]["appearances"]["font"], 20))
   elif config["settings"]["appearances"]["theme"] == "dark":
-    screen = customtkinter.CTkLabel(body, textvariable=output, width=310, height=50, fg_color=config["settings"]["appearances"]["themes"]["dark"]["card"], corner_radius=10, anchor="e", font=("Arial", 20))
+    screen = customtkinter.CTkLabel(body, textvariable=output, width=310, height=50, fg_color=config["settings"]["appearances"]["themes"]["dark"]["card"], corner_radius=10, anchor="e", font=(config["settings"]["appearances"]["font"], 20))
   elif config["settings"]["appearances"]["theme"] == "cursed":
-    screen = customtkinter.CTkLabel(body, textvariable=output, width=310, height=50, fg_color=appearance.cursed(), corner_radius=10, anchor="e", font=("Arial", 20))
+    screen = customtkinter.CTkLabel(body, textvariable=output, width=310, height=50, fg_color=appearance.cursed(), corner_radius=10, anchor="e", font=(config["settings"]["appearances"]["font"], 20))
   screen.pack(fill="x", pady=(10, 20))
 
   rows = 0
