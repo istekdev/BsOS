@@ -49,27 +49,33 @@ def open():
   CALC = customtkinter.CTk()
   if config["settings"]["appearances"]["theme"] == "light":
     calculator = customtkinter.CTkFrame(CALC, width=330, height=470, fg_color=config["settings"]["appearances"]["themes"]["light"]["background"], corner_radius=20)
-    calculator.place(x=200, y=60)
     header = customtkinter.CTkFrame(calculator, height=100, fg_color=config["settings"]["appearances"]["themes"]["light"]["card"])
     header.pack(fill="x")
     title = customtkinter.CTkLabel(header, text="Calculator", text_color=config["settings"]["appearances"]["themes"]["light"]["title"], font=(config["settings"]["appearances"]["font"], 14, "bold"))
     title.pack(side="right", padx=10)
   elif config["settings"]["appearances"]["theme"] == "dark":
     calculator = customtkinter.CTkFrame(CALC, width=330, height=470, fg_color=config["settings"]["appearances"]["themes"]["dark"]["background"], corner_radius=20)
-    calculator.place(x=200, y=60)
     header = customtkinter.CTkFrame(calculator, height=100, fg_color=config["settings"]["appearances"]["themes"]["dark"]["card"])
     header.pack(fill="x")
     title = customtkinter.CTkLabel(header, text="Calculator", text_color=config["settings"]["appearances"]["themes"]["dark"]["title"], font=(config["settings"]["appearances"]["font"], 14, "bold"))
     title.pack(side="right", padx=10)
   elif config["settings"]["appearances"]["theme"] == "cursed":
     calculator = customtkinter.CTkFrame(CALC, width=330, height=470, fg_color=appearance.cursed(), corner_radius=20)
-    calculator.place(x=200, y=60)
     header = customtkinter.CTkFrame(calculator, height=100, fg_color=appearance.cursed())
     header.pack(fill="x")
     title = customtkinter.CTkLabel(header, text="Calculator", text_color=appearance.cursed(), font=(config["settings"]["appearances"]["font"], 14, "bold"))
     title.pack(side="right", padx=10)
 
-  block = {"application": "Calculator", "directory": "/applications/system/calculator.py", "x": 200, "y": 60}
+  x, y = 200, 60
+  for apps in config["system"]["runningApps"]:
+    if apps["x"] == x and apps["y"] == y:
+      x += 25
+      y+= 25
+      calculator.place(x=x, y=y)
+    else:
+      calculator.place(x=200, y=60)
+
+  block = {"application": "Calculator", "directory": "/applications/system/calculator.py", "x": x, "y": y}
   config["system"]["runningApps"].append(block)
   with open("./config.json", "w") as w:
     json.dump(config, w, indent=4)
