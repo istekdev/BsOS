@@ -4,5 +4,6 @@
   "created": 1766656077,
   "directory": "https://raw.githubusercontent.com/istekdev/BsOS/refs/heads/main/external/applications/cryptocurrency/metadata.json",
   "update": "https://github.com/istekdev/BsOS/tree/main/external/applications/cryptocurrency",
-  "verifyHash": "4d39f7d95c0fece9bcce89a80e495ae40064891a81e82d763d456984952e1f69"
+  "weight": 0,
+  "verifyHash": "bf084383670777b18f80937671fa555ae7c0506ca5e12e449921c376dc58e624"
 }
