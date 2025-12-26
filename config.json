@@ -62,7 +62,8 @@
     ],
     "loggedIn": "root",
     "timezone": "EST",
-    "timeFormat": 12
+    "timeFormat": 12,
+    "runningApps": []
   },
   "settings": {
     "appearances": {
