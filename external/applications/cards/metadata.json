@@ -4,5 +4,6 @@
   "created": 1766633561,
   "directory": "https://raw.githubusercontent.com/istekdev/BsOS/refs/heads/main/external/applications/cards/metadata.json",
   "update": "https://github.com/istekdev/BsOS/tree/main/external/applications/cards",
-  "verifyHash": "104192fe4acd506b234d94b2f529c9a6fd2352a36b5be40a19c81aaa080e69dc"
+  "weight": 0,
+  "verifyHash": "c76272ae08ebd2c46d9c19a2802f26d51cf30a3b9c47a72e404153d4578dfe0d"
 }
